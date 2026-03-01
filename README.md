@@ -131,7 +131,7 @@ Turing-Machines-Paridad-y-1mas0estrella/
 ## 👨‍💻 Autor
 
 **Alejandro De Mendoza**  
-Ingeniería Informática 
+Ingeniería Informática
 Fundación Universitaria Internacional de La Rioja  
 Bogotá D.C., Colombia · 2026
 
