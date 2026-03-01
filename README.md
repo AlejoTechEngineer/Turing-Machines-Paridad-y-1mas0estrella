@@ -1,6 +1,6 @@
-# 🤖 Máquinas de Turing — Paridad y 1⁺0*
+<h1 align="center">🤖 Máquinas de Turing — Paridad y 1⁺0*</h1>
 
-> **Actividad Laboratorio No. 2** — Fundamentos de Informática Teórica  
+> **Actividad Laboratorio No. 2** — Informática Teórica  
 > Fundación Universitaria Internacional de La Rioja · 2026
 
 ---
@@ -138,7 +138,7 @@ Turing-Machines-Paridad-y-1mas0estrella/
 ## 👨‍💻 Autor
 
 **Alejandro De Mendoza**  
-Ingeniería Informática — Sexto Semestre  
+Ingeniería Informática 
 Fundación Universitaria Internacional de La Rioja  
 Bogotá D.C., Colombia · 2026
 
