@@ -1,7 +1,5 @@
 <h1 align="center">🤖 Máquinas de Turing — Paridad y 1⁺0*</h1>
 
-> Fundación Universitaria Internacional de La Rioja · 2026
-
 ---
 
 ## 📋 Descripción
