@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<structure>
+  <type>turing</type>
+  <tapes>1</tapes>
+  <automaton>
+    <!-- States -->
+    <state id="0" name="q0">
+      <x>120.0</x><y>120.0</y>
+      <initial/>
+    </state>
+    <state id="1" name="q1">
+      <x>320.0</x><y>120.0</y>
+    </state>
+    <state id="2" name="q_accept">
+      <x>120.0</x><y>260.0</y>
+      <final/>
+    </state>
+    <state id="3" name="q_reject">
+      <x>320.0</x><y>260.0</y>
+    </state>
+
+    <!-- Transitions for parity of 1s -->
+    <!-- q0: even so far -->
+    <transition>
+      <from>0</from><to>0</to>
+      <read>0</read><write>0</write><move>R</move>
+    </transition>
+    <transition>
+      <from>0</from><to>1</to>
+      <read>1</read><write>1</write><move>R</move>
+    </transition>
+    <transition>
+      <from>0</from><to>2</to>
+      <read></read><write></write><move>S</move>
+    </transition>
+
+    <!-- q1: odd so far -->
+    <transition>
+      <from>1</from><to>1</to>
+      <read>0</read><write>0</write><move>R</move>
+    </transition>
+    <transition>
+      <from>1</from><to>0</to>
+      <read>1</read><write>1</write><move>R</move>
+    </transition>
+    <transition>
+      <from>1</from><to>3</to>
+      <read></read><write></write><move>S</move>
+    </transition>
+  </automaton>
+</structure>
