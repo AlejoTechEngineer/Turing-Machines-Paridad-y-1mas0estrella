@@ -1,5 +1,5 @@
 <h1 align="center">🤖 Máquinas de Turing — Paridad y 1⁺0*</h1>
-
+---
 ## 📋 Descripción
 
 Este repositorio contiene el diseño formal, diagramas de estados e implementación en **JFLAP** de dos Máquinas de Turing de una sola cinta, construidas como parte del Laboratorio No. 2 de la asignatura Informática Teórica.
