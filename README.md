@@ -1,15 +1,14 @@
-<h1 align="center">🤖 Máquinas de Turing — Paridad y 1⁺0*</h1>
-
-Este repositorio contiene el diseño formal, diagramas de estados e implementación en **JFLAP** de dos Máquinas de Turing de una sola cinta, construidas como parte del Laboratorio No. 2 de la asignatura Informática Teórica.
-
-Cada máquina fue diseñada para reconocer un lenguaje formal específico sobre el alfabeto Σ = {0, 1}, con alfabeto de cinta Γ = {0, 1, □}.
-
----
+<div align="center">
 
 ## 🧠 Ejercicios Implementados
 
 ### Ejercicio 1 — Paridad de Unos
 **Lenguaje reconocido:**
+
+</div>
+
+---
+
 ```
 L = { w ∈ {0,1}* | el número de símbolos "1" en w es par }
 ```
@@ -138,3 +137,12 @@ Bogotá D.C., Colombia · 2026
 
 > *"A Turing machine is an idealized computing device."*  
 > — Alan M. Turing
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
