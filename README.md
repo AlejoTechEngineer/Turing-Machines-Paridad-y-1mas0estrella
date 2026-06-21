@@ -59,6 +59,26 @@ Turing-Machines-Paridad-y-1mas0estrella/
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Entrada: cadena binaria w] --> B[MT 1 - Paridad de Unos - MT_paridad_unos.jff]
+    A --> C[MT 2 - Lenguaje 1+0* - MT_1plus_0star.jff]
+    B --> D{q0 - Paridad par}
+    D -->|lee 1| E{q1 - Paridad impar}
+    E -->|lee 1| D
+    D -->|lee blanco| F[q_accept]
+    E -->|lee blanco| G[q_reject]
+    C --> H{q0 - Inicio}
+    H -->|lee 1| I{q1 - Bloque de unos}
+    H -->|lee 0 o blanco| G
+    I -->|lee 0| J{q2 - Bloque de ceros}
+    I -->|lee blanco| F
+    J -->|lee 0 o blanco| F
+    J -->|lee 1| G
+```
+
 ## 🔬 Tablas de Transición
 
 ### MT 1 — Paridad de Unos
@@ -139,26 +159,6 @@ Bogotá D.C., Colombia · 2026
 > — Alan M. Turing
 
 ---
-
-## Arquitectura
-
-```mermaid
-flowchart TD
-    A[Entrada: cadena binaria w] --> B[MT 1 - Paridad de Unos - MT_paridad_unos.jff]
-    A --> C[MT 2 - Lenguaje 1+0* - MT_1plus_0star.jff]
-    B --> D{q0 - Paridad par}
-    D -->|lee 1| E{q1 - Paridad impar}
-    E -->|lee 1| D
-    D -->|lee blanco| F[q_accept]
-    E -->|lee blanco| G[q_reject]
-    C --> H{q0 - Inicio}
-    H -->|lee 1| I{q1 - Bloque de unos}
-    H -->|lee 0 o blanco| G
-    I -->|lee 0| J{q2 - Bloque de ceros}
-    I -->|lee blanco| F
-    J -->|lee 0 o blanco| F
-    J -->|lee 1| G
-```
 
 ## Autor
 
